@@ -156,3 +156,14 @@ nav li a:hover {
 .mentions_content-item .item_content {
   padding: var(--space);
 }
+
+/* ------------------------------- Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px var(--space);
+  background-color: var(--black-color);
+}
+.footer .option {
+  color: var(--white-color);
+}
