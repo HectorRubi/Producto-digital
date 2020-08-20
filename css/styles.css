@@ -12,6 +12,7 @@
 
   /* Espaciado */
   --space: 10px;
+  --space-long: 50px;
 
   /* Box shadow */
   --box: 0 0 2px 1px #e6e5e9;
@@ -95,4 +96,25 @@ nav li a:hover {
 
 .main_button:hover {
   background-color: #5c9c20;
+}
+
+/* ---------------------------- Details section */
+.details {
+  display: flex;
+  padding: 60px 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.detail_item {
+  max-width: 150px;
+  padding: 0 var(--space-long);
+}
+
+.detail_item_content img {
+  width: 100px;
+}
+
+.item_title {
+  text-align: center;
 }
