@@ -167,3 +167,17 @@ nav li a:hover {
 .footer .option {
   color: var(--white-color);
 }
+
+/* ------------------------------ Productos */
+.product_item {
+  padding: var(--space-section) 0;
+}
+.product_item-img {
+  text-align: center;
+}
+.product_item-img img {
+  max-width: 50%;
+}
+.product_item-content {
+  padding: 50px 0;
+}
