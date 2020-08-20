@@ -13,6 +13,10 @@
   /* Espaciado */
   --space: 10px;
   --space-long: 50px;
+  --space-section: 60px;
+
+  /* Dimension */
+  --size-mention: 250px;
 
   /* Box shadow */
   --box: 0 0 2px 1px #e6e5e9;
@@ -101,7 +105,7 @@ nav li a:hover {
 /* ---------------------------- Details section */
 .details {
   display: flex;
-  padding: 60px 0;
+  padding: var(--space-section) 0;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -117,4 +121,38 @@ nav li a:hover {
 
 .item_title {
   text-align: center;
+}
+
+/* ---------------------------- Menciones */
+.mentions {
+  padding: var(--space-section) 0;
+}
+
+.mentions_title {
+  text-align: center;
+}
+
+.mentions_content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mentions_content-item {
+  width: var(--size-mention);
+  margin: var(--space);
+  box-shadow: var(--box);
+}
+
+.mentions_content-item .item_img {
+  text-align: center;
+}
+.mentions_content-item img {
+  width: var(--size-mention);
+  height: 120px;
+  object-fit: cover;
+}
+
+.mentions_content-item .item_content {
+  padding: var(--space);
 }
